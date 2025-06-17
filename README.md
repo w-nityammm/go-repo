@@ -35,6 +35,8 @@ To avoid GitHub API rate limits (60 requests/hour for unauthenticated requests),
    - Set as environment variable:
      - Windows: `set GITHUB_TOKEN=YOUR_TOKEN`
      - Linux/macOS: `export GITHUB_TOKEN=YOUR_TOKEN`
+   
+     Test: `echo $GITHUB_TOKEN`
 
 ## Usage
 
@@ -71,7 +73,7 @@ go-repo analyze golang/go --format json
 go-repo analyze golang/go -f json
 ```
 
-### Help
+### See all commands
 
 ```bash
 go-repo --help
