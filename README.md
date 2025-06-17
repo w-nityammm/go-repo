@@ -1,6 +1,6 @@
 # go-repo
 
-A cobra cli tool to analyze github repositories.
+A cobra cli tool to analyze github repositories, made this to learn Go 🐐
 
 ## Features
 - Fetch repository details
@@ -103,3 +103,11 @@ Using `go-repo analyze golang/go -p 2`:
 🔴 #74249: Victor001 hash patch 1
    👤 victor001-hash
 ```
+## Contributing
+
+Contributions are welcome! Few needed features:
+
+- New flag to download output as json/pdf.
+-  Show most active contributors and core maintainers.
+-  Issue resolution time trends or something similar.
+- Anything else you can think of!
